@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=JetBrains+Mono&family=Sora:wght@400;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0F172A;
+  --color-surface: #1E293B;
+  --color-surface-hover: #263548;
+  --color-border: #334155;
+  --color-primary: #3B82F6;
+  --color-primary-glow: rgba(59, 130, 246, 0.15);
+  --color-accent: #10B981;
+  --color-accent-purple: #8B5CF6;
+  --color-text-primary: #F1F5F9;
+  --color-text-secondary: #94A3B8;
+  --color-text-muted: #64748B;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-heading: "Sora", sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-secondary);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+html {
+  scroll-behavior: smooth;
+}
