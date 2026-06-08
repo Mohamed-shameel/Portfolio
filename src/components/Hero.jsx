@@ -31,11 +31,6 @@ const Hero = () => {
         initial="hidden"
         animate="visible"
       >
-        <motion.div variants={itemVariants} className="mb-8">
-          <span className="px-4 py-2 bg-blue-500/10 text-blue-400 border border-blue-500/20 rounded-full text-sm font-medium tracking-wide">
-            👋 Available for Placement — Nov 2026
-          </span>
-        </motion.div>
 
         <motion.h1 
           variants={itemVariants}
