@@ -32,12 +32,6 @@ const Hero = () => {
         animate="visible"
       >
 
-        <motion.h1 
-          variants={itemVariants}
-          className="text-5xl md:text-7xl font-black tracking-tight mb-6 bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent"
-        >
-          MOHAMED SHAMEEL M
-        </motion.h1>
 
         <motion.h2 variants={itemVariants} className="text-2xl md:text-3xl text-slate-400 font-semibold mb-4">
           AI/ML Engineer & Full Stack Developer
